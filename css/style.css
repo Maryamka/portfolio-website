@@ -310,9 +310,7 @@ a.resume {
 
 
       @keyframes color-change {
-  from {fill: #edc655;}
-  to {fill: #f76414;}
-}
+     0% {fill: #edc655;} 50% {fill: #fcffad;} 100% {fill: #f76414;} }
 
 
 .sun {
@@ -324,6 +322,6 @@ a.resume {
   to {transform: translate(200px,50px);}
 }
 
-.cloud {
+.clouds {
   animation: 30s cloud-move infinite alternate linear;
 }
