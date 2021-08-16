@@ -112,7 +112,7 @@ padding: 10px;
 header {
   background-color: #1C1C1C;
   padding: 20px;
-  margin: 10px;
+  
   text-align:center;
   box-shadow:0px 3px 10px 0px rgba(0, 0, 0, 0.32);
   position: fixed;
@@ -289,7 +289,12 @@ a.resume {
           margin-left: auto;
           margin-right: auto;
           padding: 24px;
+
         }
+        .pic  { padding: 0 20px;}
+        .pic img { width: 50%; margin: auto; display: block;}
+
+
   }
 
 
