@@ -25,14 +25,17 @@
   <body>
 
     <header>
-      <div class="container"> <a href="#Maryamkalantari" class="logo">Maryam kalantari</a>
-
-        <nav>
+      <div class="container"><div class="navtoggle" id="myNavtoggle">
+        <a href="#Maryamkalantari" class="logo">Maryam kalantari</a>
+  </div>
+  <nav>
         <ul>
           <li><a class="navigation" href="index.html">Work</a></li>
           <li><a class="navigation" href="about.html">About</a></li>
           <li><a class="navigation" href="#contact">Contact</a></li>
          </ul></nav>
+         <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+         <i class="fas fa-bars"></i></a></li>
   </div>
   </header>
 
@@ -129,7 +132,7 @@ This is an example of a SVG image which is animated using keyframes.
 
 </div><!--    email.  -->
   <br>
-  <a  href="LINKEDIN-URL"> <i class="fab fa-linkedin"></i> </a>
+  <a  href="LINKEDIN-URL"> <i class="fab fa-linkedin"> </i> </a>
 
    <a  href="https://dribbble.com/maryam-kalantari" target="_blank"> <i class="fab fa-dribbble-square"></i></a>
    <a  href="https://www.behance.net/maryamkalantari1" target="_blank"> <i class="fab fa-behance-square"></i> </a>
@@ -137,6 +140,11 @@ This is an example of a SVG image which is animated using keyframes.
         <br>
         <p>Copyright Maryam Kalantari 2021</p>
 </div> </footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
 
 <script src="js/scripts.js"></script>
 
