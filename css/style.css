@@ -375,7 +375,9 @@ a.resume {
 }
 
 
-
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
 .navtoggle.responsive li  {
   display: block;
 }
