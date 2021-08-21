@@ -189,9 +189,10 @@ padding-bottom: 0.67em;
 
 #hero {
   background-color: #F1F1F1;
-  padding: 20px 0;
+  padding: 50px 0;
   display: inline-block;
   width: 100%;
+
 }
 
 #hero span {
