@@ -281,14 +281,18 @@ a.resume {
     display: inline-block;
   }
 
+
+  .navtoggle li:not(:last-child) {
+  display: none;
+}
+
          .navtoggle li:not(:last-child) {
             display: inline-block;
           }
 
           .navtoggle li:last-child {
-          display: none;
-        }
-
+  display: none;
+}
       }
 
 
@@ -379,6 +383,18 @@ a.resume {
 .navtoggle, .navtoggle.responsive {
   position: relative;
 }
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  
+}
+
+
+
+
 .navtoggle.responsive li  {
   display: block;
 }
@@ -394,13 +410,4 @@ a.resume {
 
 .navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
-}
-
-
-
-.navtoggle li .icon {
-  position: absolute;
-  right: 0;
-  top: 2px;
-  font-size: 20px;
 }
