@@ -124,12 +124,14 @@ header {
   margin-left: auto;
   margin-right: auto;
   padding: 0 16px;
+
 }
 
 .row {
   margin: 25px 0;
   padding-bottom: 25px;
   border-bottom: 1px; solid #F9F9F9;
+
 }
 
 #hero h2 {
