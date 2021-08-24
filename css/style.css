@@ -369,6 +369,25 @@ a.resume {
         .pic img { width: 50%; margin: auto; display: block;}
         .logo {min-width: 641px
                }
+               .fix {
+padding: 0 20%;
+margin-top: 100px;
+}
+
+.fix-about{
+  padding: 0 20%;
+  }
+
+  .fix-about img{
+width: 60%;
+display: block;
+margin: 0 auto;
+
+      }
+
+
+
+
 
        }
 
