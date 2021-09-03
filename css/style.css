@@ -385,11 +385,7 @@ margin: 0 auto;
 
       }
 
-
-
-
-
-       }
+ }
 
 
 
@@ -434,4 +430,8 @@ margin: 0 auto;
 .icon {
   background-color:#F9F9F9;
   text-align: center;
-  }
+}
+
+.fab {
+  margin: 0 10px 0px 10px;
+}
