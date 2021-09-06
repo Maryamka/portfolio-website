@@ -124,14 +124,12 @@ header {
   margin-left: auto;
   margin-right: auto;
   padding: 0 16px;
-
 }
 
 .row {
   margin: 25px 0;
   padding-bottom: 25px;
-  border-bottom: 1px; solid #F9F9F9;
-
+  border-bottom: 1px solid #f9f9f9;
 }
 
 #hero h2 {
@@ -140,11 +138,11 @@ header {
 
 .logo {
  max-width: 150px;
- color: #F9F9F9;
+ color: #f9f9f9;
  text-decoration: none;
  text-transform: uppercase;
  border: 3px;
- border-color: #F9F9F9;
+ border-color: #f9f9f9;
 
 }
 
@@ -410,7 +408,7 @@ margin: 0 auto;
 
 
 
-      @keyframes color-change {
+  @keyframes color-change {
      0% {fill: #edc655;} 50% {fill: #fcffad;} 100% {fill: #f76414;} }
 
 
