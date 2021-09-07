@@ -29,8 +29,7 @@ h1,h2,h3,h4 { line-height: 1.4;
     font-size: 2.75em;
     font-weight: 700;
     line-height: 1.2;
-
-    }
+}
 
 h2  {
     font-size: 2.25em;
@@ -143,14 +142,12 @@ header {
  text-transform: uppercase;
  border: 3px;
  border-color: #f9f9f9;
-
 }
 
 nav > ul {
   list-style-type: none;
   padding: 0;
 }
-
 
 
 nav > ul > li > a {
@@ -194,8 +191,7 @@ nav > ul > li > a:active {
   right: 0;
   top: 2px;
   font-size: 20px;
-
-  }
+}
 
   .navtoggle.responsive li  {
   display: block;
@@ -225,7 +221,6 @@ padding-bottom: 0.67em;
   padding: 50px 0;
   display: inline-block;
   width: 100%;
-
 }
 
 #hero span {
@@ -260,8 +255,7 @@ a.resume {
   text-decoration: none;
   transition-duration: 0.2s;
   transition-property: opacity;
-
-  }
+}
 
   a.resume:hover {
     opacity: 0.8;
@@ -279,8 +273,7 @@ a.resume {
     header {
       text-align: unset;
       padding: 20px 0 13px;
-
-       }
+      }
 
       nav {
       width: auto;
@@ -304,7 +297,7 @@ a.resume {
           padding: 0 0;
           }
 
-      .row::after  {
+      .row::after {
         content: "";
         clear: both;
         display: table;
@@ -325,11 +318,13 @@ a.resume {
 
           .navtoggle li:last-child {
   display: none;
+  }
 }
 
 
 
-      }
+
+
 
 
 
@@ -338,7 +333,7 @@ a.resume {
 
 
       /* Large devices (1024px or larger)*/
-      @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
 
 
       .col-lg-7  {
@@ -356,13 +351,16 @@ a.resume {
           margin-left: auto;
           margin-right: auto;
           padding: 24px;
-
         }
-        .pic  { padding: 0 20px;}
+
+
+        .pic { padding: 0 20px;}
         .pic img { width: 50%; margin: auto; display: block;}
-        .logo {min-width: 641px
-               }
-               .fix {
+        .logo {min-width: 641px}
+        }
+
+
+.fix {
 padding: 0 20%;
 margin-top: 100px;
 }
@@ -375,10 +373,8 @@ margin-top: 100px;
 width: 60%;
 display: block;
 margin: 0 auto;
+}
 
-      }
-
- }
 
   .title {
     text-align: center;
@@ -390,18 +386,17 @@ margin: 0 auto;
 
 
     i {
-      color: #1C1C1C;
+      color: #1c1c1c;
       width: 32px;
       }
 
 
 
-
-
 .icon {
-  background-color:#f9f9f9;
+  background-color: #f9f9f9;
   text-align: center;
 }
+
 
 .fab {
   margin: 0 10px 0px 10px;
